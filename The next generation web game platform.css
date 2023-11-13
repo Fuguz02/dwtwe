@@ -1,0 +1,356 @@
+body,html 
+
+
+{   height: auto;
+  width: auto;
+  background: rgb(15,15,15);
+  background: linear-gradient(90deg, rgb(1, 1, 1) 0%, rgba(23,37,72,1) 100%);
+padding: 0;
+margin: 0
+
+
+
+    }
+    body {
+      display: block;
+      margin: 8px;
+      
+  }
+    
+head {
+  display: none;
+}
+meta {
+display: none;
+}
+title {
+display: none;
+}
+link {
+display: none;
+}
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 601px) {
+      body {
+        font-size: 16px;
+      }
+    }
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+::before, ::after {
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    }
+
+
+    .block {
+      background-image: url('tys.jpg');
+      width: 100%;
+      height: 70%;
+      position: absolute;  left: -2px;top: -2px;
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      opacity:.25;
+      background-attachment: fixed;
+      background-position: top;  
+      
+    }
+    
+
+    .block3 {
+      background-image: url('mol.png');
+      width: 60%;
+      height:60%;
+      position: absolute;  left: 40%;top: 10%;
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover; 
+      float: left;
+      margin-right: 5px;
+      opacity: 0.4;
+      filter: alpha(opacity=20)
+ 
+       
+      
+    }
+    .block4 {
+      background-image: url('jos.png');
+      width: 60%;
+      height:60%;
+      position: absolute;  left: 40%;top: 10%;
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover; 
+      float: left;
+      margin-right: 5px;
+      opacity: 0.5;
+      filter: alpha(opacity=10)
+ 
+       
+      
+    }
+    .block5 {
+      background-image: url('hhf.png');
+      width: 60%;
+      height:60%;
+      position: absolute;  left: -1%;top: -1%;
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover; 
+      float: left;
+      margin-right: 5px;
+      opacity: 0.5;
+      filter: alpha(opacity=10)
+ 
+       
+      
+    }
+    
+    
+
+
+
+    
+
+.ryr{
+
+    position: absolute;top: 50%;
+    color: #ffffffa6;
+}
+
+.ryr2{
+
+    position: absolute;  left: 3%;top:62%;
+    color: #ffffff69;
+}
+
+.ryr3{
+  font-size: 80%;
+      position: absolute;  left:20%;top: 70%;
+      color: #ffffff69;
+      
+  }
+  
+       
+                            .ryr17{
+                              font-size: 130%;
+                                  position: absolute;  left:65vw;top: 100%;
+                                  color: #ffffff69;
+                                  
+                              }  
+                              .ryr18{
+                               
+                                    position: absolute;  left:65%;top: 85%;
+                                    color: #ffffff69;
+                                    
+                                }   .ryr19{
+                                  font-size: 130%;
+                                      position: absolute;  left:3%;top: 45%;
+                                      color: #ffffff69;
+                                      
+                                  }
+
+
+
+
+
+
+
+  @font-face {
+    font-family: 'Stallions';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Stallions'), url('https://fonts.cdnfonts.com/s/21021/Stallions - personnal use ONLY.woff') format('woff');
+    font-size: 20%;
+}
+  .glow-on-hover {
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #ffffffc4;
+    background: #111111;
+  
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #0d00ff, #0080ff, #00f7ff, #9d00ff, #00ffd5, #8400ff, #7a00ff, #ff00c8, #00ff99);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+    .ff2{
+      position: absolute;  left: 27%;top:89%;
+      font-size: 20%;
+    }
+    .ff1{
+      position: absolute;  left: 1%;top:120%;
+      font-size: 20%;
+    }
+    .ff3{
+      position: absolute;  left: 53%;top:120%;
+      font-size: 15%;
+    }
+    .ff4{
+      position: absolute;  left: 26%;top:150%;
+      font-size: 15px;
+    }
+ 
+
+
+
+
+    .adaptivny-slayder {
+      position: relative;
+      max-width: 45vw;
+      margin: 50px auto;
+      box-shadow: 0 10px 20px -5px rgba(10, 2, 39, 0.75);
+    }
+    
+    .adaptivny-slayder input[name="kadoves"] {
+      display: none;
+    }
+    
+    .kadoves {
+      position: absolute;
+      left: 0;
+      bottom: -40px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .kadoves label {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      cursor: pointer;
+      margin: 0 3px;
+
+    }
+
+    
+    .adaptivny-slayder-lasekun {
+      overflow: hidden;
+       
+    }
+    
+    .abusteku-deagulus {
+      display: flex;
+      width: 100%;
+      transition: all 0.5s;
+    }
+    
+    .abusteku-deagulus img {
+      width: 100%;
+      flex-shrink:0;
+    }
+    
+    #slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+      transform: translate(0);
+    }
+    
+    #slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+      transform: translateX(-100%);
+    }
+    
+    #slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+      transform: translateX(-200%);
+    }
+    #slaid4:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+      transform: translateX(-300%);
+    }
+  
+
+
+.ew{
+  position: absolute;
+  top: 90%;
+  left: -15%;
+  width: 93%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
